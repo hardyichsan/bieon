@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:layout_height="match_parent"
+    tools:context=".Activity.HelpActivity">
+
+    <ScrollView
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:text="1"
+                        android:textSize="15dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:textSize="15dp"
+                        android:justificationMode="inter_word"
+                        android:text="@string/nosatu">
+
+                    </TextView>
+                </TableRow>
+                <TableRow android:layout_marginLeft="17dp">
+                    <TextView
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:text="a"
+                        android:textSize="12dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:textSize="12dp"
+                        android:justificationMode="inter_word"
+                        android:text="@string/desasatu">
+
+                    </TextView>
+                </TableRow>
+                <TableRow android:layout_marginLeft="17dp">
+                    <TextView
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:text="b"
+                        android:textSize="12dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:textSize="12dp"
+                        android:justificationMode="inter_word"
+                        android:text="@string/desbsatu">
+                    </TextView>
+                </TableRow>
+                <TableRow android:layout_marginLeft="17dp">
+                    <TextView
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:text="c"
+                        android:textSize="12dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:textSize="12dp"
+                        android:justificationMode="inter_word"
+                        android:text="@string/descsatu">
+
+                    </TextView>
+                </TableRow>
+                <TableRow android:layout_marginLeft="17dp">
+                    <TextView
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:text="e"
+                        android:textSize="12dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:textSize="12dp"
+                        android:justificationMode="inter_word"
+                        android:text="@string/desesatu">
+
+                    </TextView>
+                </TableRow>
+                <TableRow android:layout_marginLeft="17dp">
+                    <TextView
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:text="f"
+                        android:textSize="12dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:textSize="12dp"
+                        android:justificationMode="inter_word"
+                        android:text="@string/desfsatu">
+                    </TextView>
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp">
+
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:text="2"
+                        android:textSize="15dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:textSize="15dp"
+                        android:justificationMode="inter_word"
+                        android:text="@string/nodua">
+
+                    </TextView>
+                </TableRow>
+                <TableRow android:layout_marginLeft="17dp">
+                    <TextView
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:text="a"
+                        android:textSize="12dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:textSize="12dp"
+                        android:justificationMode="inter_word"
+                        android:text="@string/desadua">
+
+                    </TextView>
+                </TableRow>
+                <TableRow android:layout_marginLeft="17dp">
+                    <TextView
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:text="b"
+                        android:textSize="12dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:textSize="12dp"
+                        android:justificationMode="inter_word"
+                        android:text="@string/desbdua">
+                    </TextView>
+                </TableRow>
+                <TableRow android:layout_marginLeft="17dp">
+                    <TextView
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:text="c"
+                        android:textSize="12dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:textSize="12dp"
+                        android:justificationMode="inter_word"
+                        android:text="@string/descdua">
+
+                    </TextView>
+                </TableRow>
+                <TableRow android:layout_marginLeft="17dp">
+                    <TextView
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:text="e"
+                        android:textSize="12dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:textSize="12dp"
+                        android:justificationMode="inter_word"
+                        android:text="@string/desedua">
+
+                    </TextView>
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp">
+
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:text="3"
+                        android:textSize="15dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:textSize="15dp"
+                        android:justificationMode="inter_word"
+                        android:text="@string/notiga">
+
+                    </TextView>
+                </TableRow>
+                <TableRow android:layout_marginLeft="17dp">
+                    <TextView
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:text="a"
+                        android:textSize="12dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:textSize="12dp"
+                        android:justificationMode="inter_word"
+                        android:text="@string/desatiga">
+
+                    </TextView>
+                </TableRow>
+                <TableRow android:layout_marginLeft="17dp">
+                    <TextView
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:text="b"
+                        android:textSize="12dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:textSize="12dp"
+                        android:justificationMode="inter_word"
+                        android:text="@string/desbtiga">
+                    </TextView>
+                </TableRow>
+                <TableRow android:layout_marginLeft="17dp">
+                    <TextView
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:text="c"
+                        android:textSize="12dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:textSize="12dp"
+                        android:justificationMode="inter_word"
+                        android:text="@string/desctiga">
+
+                    </TextView>
+                </TableRow>
+                <TableRow android:layout_marginLeft="17dp">
+                    <TextView
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:text="d"
+                        android:textSize="12dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:textSize="12dp"
+                        android:justificationMode="inter_word"
+                        android:text="@string/desdtiga">
+
+                    </TextView>
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp">
+
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:text="4"
+                        android:textSize="15dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:textSize="15dp"
+                        android:justificationMode="inter_word"
+                        android:text="@string/noempat">
+
+                    </TextView>
+                </TableRow>
+                <TableRow android:layout_marginLeft="17dp">
+                    <TextView
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:text="a"
+                        android:textSize="12dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:textSize="12dp"
+                        android:justificationMode="inter_word"
+                        android:text="@string/desaempat">
+
+                    </TextView>
+                </TableRow>
+                <TableRow android:layout_marginLeft="17dp">
+                    <TextView
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:text="b"
+                        android:textSize="12dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:textSize="12dp"
+                        android:justificationMode="inter_word"
+                        android:text="@string/desbempat">
+                    </TextView>
+                </TableRow>
+                <TableRow android:layout_marginLeft="17dp">
+                    <TextView
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:text="c"
+                        android:textSize="12dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:textSize="12dp"
+                        android:justificationMode="inter_word"
+                        android:text="@string/descempat">
+
+                    </TextView>
+                </TableRow>
+                <TableRow android:layout_marginLeft="17dp">
+                    <TextView
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:text="d"
+                        android:textSize="12dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:textSize="12dp"
+                        android:justificationMode="inter_word"
+                        android:text="@string/desdempat">
+
+                    </TextView>
+                </TableRow>
+                <TableRow android:layout_marginLeft="17dp">
+                    <TextView
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:text="e"
+                        android:textSize="12dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:textSize="12dp"
+                        android:justificationMode="inter_word"
+                        android:text="@string/deseempat">
+
+                    </TextView>
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp">
+
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:text="5"
+                        android:textSize="15dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:textSize="15dp"
+                        android:justificationMode="inter_word"
+                        android:text="@string/nolima">
+
+                    </TextView>
+                </TableRow>
+                <TableRow android:layout_marginLeft="17dp">
+                    <TextView
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:text="a"
+                        android:textSize="12dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:textSize="12dp"
+                        android:justificationMode="inter_word"
+                        android:text="@string/desalima">
+
+                    </TextView>
+                </TableRow>
+                <TableRow android:layout_marginLeft="17dp">
+                    <TextView
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:text="b"
+                        android:textSize="12dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:textSize="12dp"
+                        android:justificationMode="inter_word"
+                        android:text="@string/desblima">
+                    </TextView>
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="14dp"
+                android:layout_marginTop="10dp">
+
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:text="6"
+                        android:textSize="15dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:textSize="15dp"
+                        android:justificationMode="inter_word"
+                        android:text="@string/noenam">
+
+                    </TextView>
+                </TableRow>
+                <TableRow android:layout_marginLeft="17dp">
+                    <TextView
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:text="a"
+                        android:textSize="12dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:textSize="12dp"
+                        android:justificationMode="inter_word"
+                        android:text="@string/desaenam">
+
+                    </TextView>
+                </TableRow>
+                <TableRow android:layout_marginLeft="17dp">
+                    <TextView
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:text="b"
+                        android:textSize="12dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:textSize="12dp"
+                        android:justificationMode="inter_word"
+                        android:text="@string/desbenam">
+                    </TextView>
+                </TableRow>
+                <TableRow android:layout_marginLeft="17dp">
+                    <TextView
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:text="c"
+                        android:textSize="12dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:textSize="12dp"
+                        android:justificationMode="inter_word"
+                        android:text="@string/descenam">
+                    </TextView>
+                </TableRow>
+
+            </TableLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

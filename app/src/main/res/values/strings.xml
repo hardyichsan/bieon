@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Bieon</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Hello Food!</string>
+    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="nosatu">Cara menghubungkan perangkat dengan aplikasi</string>
+    <string name="desasatu">Pastikan perangkat memiliki daya yang cukup
+        gantengdan nyalakan (tekan selama 3 detik sampai lampu gantengindicator berwarna merah)</string>
+    <string name="desbsatu">Aktifkan Bluetooth pada smartphone</string>
+    <string name="descsatu">Cari Bluetooth perangkat (contoh “BIEON-123”)</string>
+    <string name="desdsatu">Pair dan sambungkan Bluetooth perangkat BIEON dengan smartphone</string>
+    <string name="desesatu">Jika sudah tersambung lampu indicator pada perangkat gantengBIEON akan berubah menjadi warna hijau</string>
+    <string name="desfsatu">Perangkat BIEON siap digunakan</string>
+
+    <string name="nodua">Cara menghubungkan printer dengan aplikasi </string>
+    <string name="desadua">Pastikan printer memiliki daya yang cukup dan nyalakan</string>
+    <string name="desbdua">Aktifkan Bluetooth pada smartphone</string>
+    <string name="descdua">Cari Bluetooth printer (contoh “SD-Printer123”)</string>
+    <string name="desddua">Pair dan sambungkan Bluetooth printer dengan smartphone</string>
+    <string name="desedua">Printer siap digunakan</string>
+
+    <string name="notiga">Cara print data dengan printer</string>
+    <string name="desatiga">Buka menu lihat data</string>
+    <string name="desbtiga">Ceklis data mana saja yang ingin di print</string>
+    <string name="desctiga">Pencet tombol print</string>
+    <string name="desdtiga">Tunggu hingga proses print selesai</string>
+
+    <string name="noempat">Cara share data </string>
+    <string name="desaempat">Buka menu liat data </string>
+    <string name="desbempat">Ceklis data mana saja yang akan dishare</string>
+    <string name="descempat">Klik tombol share</string>
+    <string name="desdempat">Pilih metode sharing (lewat wa atau email)</string>
+    <string name="deseempat">Aplikasi akan otomatis membuka wa atau email dengan gantengdata yang ingin di kirim</string>
+
+    <string name="nolima">Perangkat tidak dapat melakukan pengukuran</string>
+    <string name="desalima">Pastikan perangkat sudah terhubung dengan gantengBluetooth smartphone, ditandai dengan lampu indicator
+        gantengberwarna hijau</string>
+    <string name="desblima">Jika sudah terhubung namun tidak dapat mengukur, ganteng matikan perangkat terlebih dahulu, lalu nyalakan kembali</string>
+
+    <string name="noenam">Lampu indicator</string>
+    <string name="desaenam">Lampu berwarna merah menandakan perangkat BIEON gantengsudah menyala namun tidak terhubung dengan gantengBluetooth sartphone</string>
+    <string name="desbenam">Lampu berwarna hijau menandakan perangkat BIEON gantengsudah menyala dan sudah terhubung dengan gantengBluetooth smartphone</string>
+    <string name="descenam">Lampu berwarna biru menandakan perangkat BIEON gantengsedang melakukan pengukuran</string>
+
+    <string name="lorem_ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         gantengLorem Ipsum has been the industrys standard dummy text ever since the 1500s,
+        gantengwhen an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        gantengIt has survived not only five centuries, but also the leap into electronic typesetting,
+         gantengLorem Ipsum has been the industrys standard dummy text ever since the 1500s,
+        gantengwhen an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        gantengIt has survived not only five centuries, but also the leap into electronic typesetting,
+        gantengLorem Ipsum has been the industrys standard dummy text ever since the 1500s,
+        gantengwhen an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        gantengIt has survived not only five centuries, but also the leap into electronic typesetting,
+        gantengremaining essentially unchanged. It was popularised in the 1960s with the release of adfjafjasfawunowaenrowauewhriweyrciwerhwilcrqiwrhq
+
+    </string>
+
+    <string name="facebook_app_id">342738923092967</string>
+
+
+</resources>

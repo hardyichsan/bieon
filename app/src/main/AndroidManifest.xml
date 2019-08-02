@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.todev.bieon">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-feature android:name="android.hardware.bluetooth" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ.PHONE.STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_saltdec"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.NyokotDataActivity"
+            android:theme="@style/MainTheme" ></activity>
+        <activity android:name=".PrinterThermal.DeviceListActivity" />
+        <activity android:name=".PrinterThermal.PrinterTothActivity" />
+
+        <activity android:name=".BluetoothTerminal.SharedPreffActivity" />
+        <activity android:name=".BluetoothTerminal.ShareDuaActivity" />
+        <activity android:name=".BluetoothTerminal.SharedSatuActivity" />
+        <activity android:name=".BluetoothTerminal.SelectActivity" />
+        <activity android:name=".BluetoothTerminal.ScanActivity" />
+        <activity android:name=".BluetoothTerminal.KomunikasiActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainTheme" />
+        <activity
+            android:name=".Activity.SplashScreenActivity"
+            android:theme="@style/MainTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.AppVersionActivity" />
+        <activity
+            android:name=".Activity.DaftarActivity"
+            android:theme="@style/MainTheme" />
+        <activity android:name=".Activity.DetailActivity" />
+        <activity android:name=".Activity.DeviceStatusActivity" />
+        <activity android:name=".Activity.HelpActivity" />
+        <activity android:name=".Activity.KonekPrinterActivity" />
+        <activity android:name=".Activity.KonekSaltdecActivity" />
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:theme="@style/MainTheme" />
+        <activity android:name=".Activity.PrivatePolicyActivity" />
+        <activity android:name=".Activity.TampilHitungActivity"
+            android:theme="@style/MainTheme"/>
+        <activity android:name=".Activity.TermActivity" />
+        <activity
+            android:name=".Activity.WelcomeActivity"
+            android:theme="@style/MainTheme" />
+        <activity android:name=".Activity.BluetoothScannerActivity" />
+        <activity android:name=".Activity.BluetoothPairingActivity" />
+        <activity android:name=".Activity.SwitchBlutotActivity" />
+        <activity android:name=".Activity.ToggleBlututActivity" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+    </application>
+
+</manifest>

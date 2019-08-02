@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    tools:context=".BottomBars.ProfilFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/profilpic"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="@color/textColor" />
+
+                <TextView
+                    android:id="@+id/foto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:hint="User Account"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="match_parent">
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:text="Name                     :"
+                        android:textSize="15dp">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="296dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Full Name"
+                        android:textSize="15sp" />
+                </TableRow>
+
+            </TableLayout>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_height="match_parent">
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:text="NIK                          :"
+                        android:textSize="15dp">
+                    </TextView>
+                    <EditText
+                        android:id="@+id/nik"
+                        android:layout_width="296dp"
+                        android:layout_height="wrap_content"
+                        android:hint="NIK"
+                        android:textSize="15sp" />
+                </TableRow>
+
+            </TableLayout>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_height="match_parent">
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:text="Address                 :"
+                        android:textSize="15dp">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/address"
+                        android:layout_width="296dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Address"
+                        android:textSize="15sp" />
+
+                </TableRow>
+
+            </TableLayout>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_height="match_parent">
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:text="No Telephone      :"
+                        android:textSize="15dp">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/notelephont"
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:hint="No Telephone"
+                        android:textSize="15dp">
+                    </TextView>
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_height="match_parent">
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:text="Email                      :"
+                        android:textSize="15dp">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/email"
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:hint="Email"
+                        android:textSize="15dp">
+                    </TextView>
+
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_height="match_parent">
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_marginTop="5dp"
+                        android:paddingRight="5sp"
+                        android:text="Gender                   :"
+                        android:textSize="15dp">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/gender"
+                        android:layout_column="1"
+                        android:paddingRight="5sp"
+                        android:hint="Gender"
+                        android:textSize="15dp"/>
+                </TableRow>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="8dp"
+                    android:layout_height="match_parent">
+                    <TableRow>
+                        <TextView
+                            android:layout_column="1"
+                            android:paddingRight="5sp"
+                            android:text="Position/Job        :"
+                            android:textSize="15dp">
+                        </TextView>
+                        <EditText
+
+                            android:layout_width="296dp"
+                            android:layout_height="wrap_content"
+                            android:hint="Position/Job"
+                            android:textSize="15sp" />
+
+                    </TableRow>
+                </TableLayout>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="8dp"
+                    android:layout_height="match_parent">
+                    <TableRow>
+                        <TextView
+                            android:layout_column="1"
+                            android:paddingRight="5sp"
+                            android:text="Agency                  :"
+                            android:textSize="15dp">
+                        </TextView>
+                        <EditText
+                            android:layout_width="296dp"
+                            android:layout_height="wrap_content"
+                            android:hint="Agency"
+                            android:textSize="15sp" />
+
+                    </TableRow>
+
+                </TableLayout>
+            </TableLayout>
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@color/simpan"
+                android:textColor="#fff"
+                android:text="Save"/>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
